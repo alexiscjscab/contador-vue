@@ -1,0 +1,39 @@
+html,body{
+  background: #000;
+  color: #fff; 
+}
+
+
+#app{
+  display: block;
+  text-align: center;
+}
+
+
+.title{
+  color: #e71080
+}
+
+.count{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.buttons button {
+  background: #e71080;
+  border: 0;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.3s;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.buttons button:hover{
+  transform: scale(1.1);
+  background: #fff;
+  color: #000;
+}
